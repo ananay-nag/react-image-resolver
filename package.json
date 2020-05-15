@@ -1,0 +1,34 @@
+{
+  "name": "react-image-resolver",
+  "version": "0.1.0",
+  "description": "Resolve the image name or path of a react project. If you update or change any image file in react project, not need to change it every where in project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js  --presets node8 ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananay-nag/react-image-resolver.git"
+  },
+  "keywords": [
+    "resolve image path",
+    "replace image path",
+    "replace image",
+    "image",
+    "img",
+    "replace path",
+    "replace"
+  ],
+  "author": "ANANYA-NAG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananay-nag/react-image-resolver/issues"
+  },
+  "homepage": "https://github.com/ananay-nag/react-image-resolver#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel": "^6.5.2",
+    "babel-preset-node8": "^1.2.0"
+  }
+}
