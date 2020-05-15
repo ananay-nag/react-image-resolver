@@ -1,0 +1,1 @@
+export const { Resolver } = require("./lib/resolver");
